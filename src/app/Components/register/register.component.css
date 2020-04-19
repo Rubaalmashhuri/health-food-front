@@ -1,0 +1,24 @@
+.invalid-input {
+    color: red;
+}
+.row{
+    margin-top: 15px;
+}
+
+.container {
+    position: absolute;
+    top: 150px;
+    left: 280px;
+}
+
+.card{
+    height: 305px;
+    position: relative;
+    top: 52px;
+    left: -9px;
+    width: 662px;
+}
+
+.shadow {
+    background-color: #03A9F4;;
+}

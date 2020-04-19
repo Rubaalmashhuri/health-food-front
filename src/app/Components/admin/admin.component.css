@@ -1,0 +1,52 @@
+.card-text{
+    height: 50px;
+    overflow: hidden;
+  }
+.mybtn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 19px;
+}
+.mybtnclr{
+    margin-left:10px;
+}
+
+.searchbtn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 19px;
+    left: 48px;
+}
+
+.search {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 21px;
+    left: 35px
+}
+
+.selectpicker {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 21px;
+    left: 19px
+}
+
+.searchClass {
+    position: relative;
+    left: 385px;
+}
+
+.searchBy {
+    position: relative;
+    top: 21px;
+}
+
+.container {
+    position: relative;
+    top: 126px;
+}

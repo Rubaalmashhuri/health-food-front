@@ -1,0 +1,21 @@
+<app-navigation></app-navigation>
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <span class="searchClass"> <span class="searchBy">Search by : </span>
+                <select class="selectpicker" title="Search by..." data-style="btn-primary" #selectedValue>
+                    <option title="category">Category</option>
+                    <option title="manufacturer">Manufacturer</option>
+                    <option title="productName">Product Name</option>
+                </select>
+                <input type="text" class="col-3 search" placeholder="Search" #se
+                       ngModel name="se">
+                <button class="searchbtn btn btn-secondary" (click)="search(se, selectedValue)">Search</button>
+            </span>
+        </div>
+        <div class="col-3 align-left" *ngFor="let product of products">
+            <app-product [product]="product" (productAddToCart)="addToCart($event)">Loading...</app-product>
+        </div>
+    </div>
+</div>
